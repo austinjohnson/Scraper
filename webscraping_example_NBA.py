@@ -6,8 +6,7 @@ from selenium.common.exceptions import TimeoutException
 import time
 browser = webdriver.Chrome("/ProgramData/chocolatey/bin/chromedriver.exe")
 
-browser.get(
-    "https://rotogrinders.com/game-stats/nfl-offense?site=fanduel&range=season")
+browser.get("https://rotogrinders.com/game-stats?site=fanduel&sport=nba")
 # Wait 20 seconds for page to load
 timeout = 20
 try:
